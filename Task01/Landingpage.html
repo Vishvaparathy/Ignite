@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Our Landing Page</h1>
+        
+        <a href="#services" class="btn">Learn More</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our company specializes in delivering comprehensive IT services, from network management to cybersecurity solutions. 
+		We have a team of experienced professionals dedicated to ensuring your technology infrastructure operates smoothly and efficiently.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of IT services tailored to meet the specific needs of our clients. Our services include:</p>
+        <div class="services-container">
+            <div class="service">
+                <img src="network.jpg" alt="Network Management">
+                <h3>Network Management</h3>
+                <p>Monitoring and maintaining your network infrastructure to ensure optimal performance.</p>
+            </div>
+            <div class="service">
+                <img src="cyber_security.jpg" alt="Cybersecurity">
+                <h3>Cybersecurity</h3>
+                <p>Implementing robust security measures to protect your data and systems from cyber threats.</p>
+            </div>
+            <div class="service">
+                <img src="cloud.jpg" alt="Cloud Services">
+                <h3>Cloud Services</h3>
+                <p>Providing scalable cloud solutions to enhance flexibility and efficiency.</p>
+            </div>
+            <div class="service">
+                <img src="mobile app.jpg" alt="Mobile App development">
+                <h3>Mobile App Development</h3>
+                <p>Mobile app development services provide end-to-end solutions for creating user-friendly and high-performance applications for iOS and Android platforms.</p>
+            </div>
+            <div class="service">
+                <img src="software.jpg" alt="Software Development">
+                <h3>Software Development</h3>
+                <p>Developing custom software applications to streamline your business processes.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

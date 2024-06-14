@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 16px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: Green;
+    font-family: ThreeDDarkShadow;
+}
+
+section h1 {
+    margin-bottom: 150px;
+    color: Green;
+    font-family: ThreeDDarkShadow;
+}
+
+section p {
+    margin-bottom: 24px;
+    font-family: ThreeDFace;
+    font-size: 25px;
+}
+
+section ul {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: ThreeDFace;
+}
+
+section ul li {
+    margin-bottom: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+form button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #28A745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    flex: 1 1 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    text-align: left;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    margin-top: 16px;
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+.service p {
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+#home {
+    background: url('name01.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 16px;
+    text-align: center;
+}
+
+#home h1 {
+    color: #fff;
+	
+}
+
+#home p {
+    color: #fff;
+	margin-bottom: 20px;
+}
